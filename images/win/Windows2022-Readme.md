@@ -1,13 +1,16 @@
 # Windows Server 2022
+
 - OS Version: 10.0.20348 Build 1906
 - Image Version: 20230820.1.0
 
 ## Windows features
+
 - Windows Subsystem for Linux (WSLv1): Enabled
 
 ## Installed Software
 
 ### Language and Runtime
+
 - Bash 5.2.15(1)-release
 - Go 1.20.7
 - Julia 1.9.2
@@ -20,6 +23,7 @@
 - Ruby 3.0.6p216
 
 ### Package Management
+
 - Chocolatey 2.2.2
 - Composer 2.5.8
 - Helm 3.12.2
@@ -33,18 +37,21 @@
 - Yarn 1.22.19
 
 #### Environment variables
+
 | Name                    | Value        |
 | ----------------------- | ------------ |
 | VCPKG_INSTALLATION_ROOT | C:\vcpkg     |
 | CONDA                   | C:\Miniconda |
 
 ### Project Management
+
 - Ant 1.10.13
 - Gradle 8.1
 - Maven 3.8.7
 - sbt 1.9.2
 
 ### Tools
+
 - 7zip 23.01
 - aria2 1.36.0
 - azcopy 10.20.1
@@ -85,6 +92,7 @@
 - zstd 1.5.5
 
 ### CLI Tools
+
 - Alibaba Cloud CLI 3.0.177
 - AWS CLI 2.13.9
 - AWS SAM CLI 1.95.0
@@ -95,12 +103,14 @@
 - Hub CLI 2.14.2
 
 ### Rust Tools
+
 - Cargo 1.71.1
 - Rust 1.71.1
 - Rustdoc 1.71.1
 - Rustup 1.26.0
 
 #### Packages
+
 - bindgen 0.66.1
 - cargo-audit 0.17.6
 - cargo-outdated 0.13.1
@@ -109,6 +119,7 @@
 - Rustfmt 1.5.2
 
 ### Browsers and Drivers
+
 - Google Chrome 116.0.5845.96
 - Chrome Driver 116.0.5845.96
 - Microsoft Edge 115.0.1901.203
@@ -119,6 +130,7 @@
 - Selenium server 4.11.0
 
 #### Environment variables
+
 | Name              | Value                              |
 | ----------------- | ---------------------------------- |
 | CHROMEWEBDRIVER   | C:\SeleniumWebDrivers\ChromeDriver |
@@ -127,6 +139,7 @@
 | SELENIUM_JAR_PATH | C:\selenium\selenium-server.jar    |
 
 ### Java
+
 | Version             | Environment Variable |
 | ------------------- | -------------------- |
 | 8.0.382+5 (default) | JAVA_HOME_8_X64      |
@@ -134,6 +147,7 @@
 | 17.0.8+7            | JAVA_HOME_17_X64     |
 
 ### Shells
+
 | Name          | Target                            |
 | ------------- | --------------------------------- |
 | gitbash.exe   | C:\Program Files\Git\bin\bash.exe |
@@ -141,9 +155,11 @@
 | wslbash.exe   | C:\Windows\System32\bash.exe      |
 
 ### MSYS2
+
 - Pacman 6.0.2
 
 #### Notes
+
 ```
 Location: C:\msys64
 
@@ -153,17 +169,20 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 ### Cached Tools
 
 #### Go
+
 - 1.18.10
 - 1.19.12
 - 1.20.7
 - 1.21.0
 
 #### Node.js
+
 - 14.21.3
 - 16.20.2
 - 18.17.1
 
 #### Python
+
 - 3.7.9
 - 3.8.10
 - 3.9.13
@@ -171,6 +190,7 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 - 3.11.4
 
 #### PyPy
+
 - 2.7.18 [PyPy 7.3.12]
 - 3.7.13 [PyPy 7.3.9]
 - 3.8.16 [PyPy 7.3.11]
@@ -178,6 +198,7 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 - 3.10.12 [PyPy 7.3.12]
 
 #### Ruby
+
 - 2.7.8
 - 3.0.6
 - 3.1.4
@@ -185,6 +206,7 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 ### Databases
 
 #### PostgreSQL
+
 | Property             | Value                                                                                                                                |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | ServiceName          | postgresql-x64-14                                                                                                                    |
@@ -197,11 +219,13 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 | Password             | root                                                                                                                                 |
 
 #### MongoDB
+
 | Version  | ServiceName | ServiceStatus | ServiceStartType |
 | -------- | ----------- | ------------- | ---------------- |
 | 5.0.19.0 | MongoDB     | Stopped       | Disabled         |
 
 ### Database tools
+
 - Azure CosmosDb Emulator 2.14.12.0
 - DacFx 162.0.52.1
 - MySQL 8.0.34.0
@@ -209,17 +233,20 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 - SQLPS 1.0
 
 ### Web Servers
+
 | Name   | Version | ConfigFile                            | ServiceName | ServiceStatus | ListenPort |
 | ------ | ------- | ------------------------------------- | ----------- | ------------- | ---------- |
 | Apache | 2.4.55  | C:\tools\Apache24\conf\httpd.conf     | Apache      | Stopped       | 80         |
 | Nginx  | 1.25.2  | C:\tools\nginx-1.25.2\conf\nginx.conf | nginx       | Stopped       | 80         |
 
 ### Visual Studio Enterprise 2022
+
 | Name                          | Version        | Path                                                     |
 | ----------------------------- | -------------- | -------------------------------------------------------- |
 | Visual Studio Enterprise 2022 | 17.7.34009.444 | C:\Program Files\Microsoft Visual Studio\2022\Enterprise |
 
 #### Workloads, components and extensions
+
 | Package                                                                   | Version         |
 | ------------------------------------------------------------------------- | --------------- |
 | android                                                                   | 33.0.68.0       |
@@ -529,6 +556,7 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 | WixToolset.WixToolsetVisualStudio2022Extension                            | 1.0.0.22        |
 
 #### Microsoft Visual C++
+
 | Name                                         | Architecture | Version     |
 | -------------------------------------------- | ------------ | ----------- |
 | Microsoft Visual C++ 2013 Additional Runtime | x64          | 12.0.40660  |
@@ -541,6 +569,7 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 | Microsoft Visual C++ 2022 Minimum Runtime    | x86          | 14.36.32532 |
 
 #### Installed Windows SDKs
+
 - 10.0.17763.0
 - 10.0.19041.0
 - 10.0.20348.0
@@ -548,6 +577,7 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 - 10.0.22621.0
 
 ### .NET Core Tools
+
 - .NET Core SDK: 6.0.121, 6.0.203, 6.0.316, 6.0.413, 7.0.400
 - .NET Framework: 4.8, 4.8.1
 - Microsoft.AspNetCore.App: 6.0.5, 6.0.21, 7.0.10
@@ -556,9 +586,11 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 - nbgv 3.6.133+2d32d93cb1
 
 ### PowerShell Tools
+
 - PowerShell 7.2.13
 
 #### Powershell Modules
+
 - Az: 9.3.0
 - Azure: 2.1.0 (Default), 5.3.0
 - AzureRM: 2.1.0 (Default), 6.13.1
@@ -575,6 +607,7 @@ Note: MSYS2 is pre-installed on image but not added to PATH.
 - PSWindowsUpdate: 2.2.0.3
 - SqlServer: 22.1.1
 - VSSetup: 2.2.16
+
 ```
 Azure PowerShell module 2.1.0 and AzureRM PowerShell module 2.1.0 are installed
 and are available via 'Get-Module -ListAvailable'.
@@ -582,6 +615,7 @@ All other versions are saved but not installed.
 ```
 
 ### Android
+
 | Package Name               | Version                                                                                                                                                                                                                            |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Android Command Line Tools | 8.0                                                                                                                                                                                                                                |
@@ -597,6 +631,7 @@ All other versions are saved but not installed.
 | SDK Patch Applier v4       | 1                                                                                                                                                                                                                                  |
 
 #### Environment variables
+
 | Name                    | Value                                   |
 | ----------------------- | --------------------------------------- |
 | ANDROID_HOME            | C:\Android\android-sdk                  |
@@ -607,6 +642,7 @@ All other versions are saved but not installed.
 | ANDROID_SDK_ROOT        | C:\Android\android-sdk                  |
 
 ### Cached Docker images
+
 | Repository:Tag                                                            | Digest                                                                   | Created    |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ---------- |
 | mcr.microsoft.com/dotnet/framework/aspnet:4.8-windowsservercore-ltsc2022  | sha256:12a06ca80b319d7933f5f09eb6c3122140d02f2617e06dd79c1e86babc6574cc  | 2023-08-08 |
